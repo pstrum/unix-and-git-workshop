@@ -1,0 +1,72 @@
+cd <path> 
+Change Directory. Change working directory to <path>.
+
+cd 
+Change working directory to home directory.
+
+mv <target>
+Moves one or more files or directories from one location to another. Can be used to rename a file or directory.
+
+mkdir <name>
+Make a new directory <name>.
+
+rm <file>
+Remove a <file>.
+
+rm -r <target directory>
+Recursively remove the files in a directory and the directory itself.
+
+pwd
+Outcome to where you currently are in the file system.
+
+pushd
+Save current working directory. Optionally go to new directory.
+
+popd
+Return to the path at the top of the directory stack.
+
+dirs
+Access the directory stack.
+
+cp <target>
+Copy a file or directory.
+
+cp -r <directory> <destination>
+Recursively copy the files to destination.
+
+ls
+List the directory. Optionally add a path to see list of that path.
+
+ls -l
+Long-form version of listing.
+
+ls -a
+Show all the files in lising, including hidden files.
+
+clear
+Clear the console window.
+
+cat <file>
+Print contents of one or more files.
+
+cat > <newfile>
+Create a new file with added text.
+
+grep <something-to-find> <wildcard or file>
+Find within a file. 
+
+less <file>
+See the contents of a file. Use 'q' to exit. Space to navigate page forward, 'b' to navigate page backwards.
+
+*
+Matches anything in the wildcard.
+
+find
+Find files.
+
+find <starting directory> -name <"*wildcard*"> -print
+Find files starting in this directory with this wildcard and print them.
+
+man <command>
+Use to learn about a command.
+

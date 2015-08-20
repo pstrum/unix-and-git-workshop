@@ -1,0 +1,65 @@
+# My Git Reference File
+
+git init
+Create a new local repository.
+
+git status
+Shows the status of your git repository. Files that have changed or need to be added.
+
+git add <file>
+Adds the file to the staging area.
+
+git add <'*.ext'>
+Adds all files with the extension to the staging area.
+
+git commit -m <message about the commit>
+Adds the staged files to the repository with an accompanying message.
+
+git log
+Display the changes made and accompanying messages.
+
+git remote add origin <url>
+Create a remote repository called 'origin' at the specified URL (i.e. GitHub)
+
+git remote -v
+See the configured remote repositories.
+
+git remote add upstream <url>
+Create a new upstream repository.
+
+git push -u origin master
+Push all the local changes to the origin repo at GitHub, -u tells Git to remember the parameters so in the future 'git push' will work.
+
+git pull origin master
+See if there have been any changes to the repo.
+
+git diff HEAD
+See what is different from the last commit. HEAD refers to the most recent commit. 
+
+git diff --staged
+See the changes that have been staged.
+
+git reset
+Remove a staged item
+
+git checkout -- <target>
+Undo. Go back to how the target was at the last commit.
+
+git branch <name of new branch>
+Create a new branch, or copy of the master.
+
+git branch
+Display all branches
+
+git rm
+Remove local files and stage the changes.
+
+git checkout <branch>
+Switch to branch. Add '-b' before <branch> to create new branch and go to it. 
+
+git merge <branch>
+Merge a different branch with the master or current branch.
+
+git branch -d <branch>
+Delete a branch.
+
